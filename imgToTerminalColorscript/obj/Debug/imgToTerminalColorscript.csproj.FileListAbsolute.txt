@@ -1,0 +1,8 @@
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\bin\Debug\imgToTerminalColorscript.exe.config
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\bin\Debug\imgToTerminalColorscript.exe
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\bin\Debug\imgToTerminalColorscript.pdb
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\obj\Debug\imgToTerminalColorscript.csproj.AssemblyReference.cache
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\obj\Debug\imgToTerminalColorscript.csproj.SuggestedBindingRedirects.cache
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\obj\Debug\imgToTerminalColorscript.csproj.CoreCompileInputs.cache
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\obj\Debug\imgToTerminalColorscript.exe
+E:\programozás\c#\imgToTerminalColorscript\imgToTerminalColorscript\obj\Debug\imgToTerminalColorscript.pdb
