@@ -14,11 +14,11 @@ namespace imgToTerminalColorscript
         {
             int[,][] rawimg;
 
-            using (var img = (Bitmap)Bitmap.FromFile("tile063.png"))
+            using (var img = (Bitmap)Bitmap.FromFile(args[0]))
             {
                 //img.Save("test", System.Drawing.Imaging.ImageFormat.Tiff);
 
-                rawimg = new int[img.Width, img.Height % 2 == 0 ? img.Height : img.Height + 1][];
+                rawimg = new int[img.Width+1, img.Height % 2 == 0 ? img.Height : img.Height + 1][];
                 for (int i = 0; i < rawimg.GetLength(0); i++) for (int j = 0; j < rawimg.GetLength(1); j++) rawimg[i, j] = new int[4];
                 for (int x = 0; x < img.Width; x++)
                 {
@@ -44,7 +44,7 @@ namespace imgToTerminalColorscript
                     if (s[i] == ' ') lastnonspaceidex = i;
                     else break;
                 }
-                Console.WriteLine(s.Substring(0,lastnonspaceidex)+ (y== rawimg.GetLength(1)-2?resetall:ResetBackgroundColor()));
+                Console.WriteLine(s.Substring(0,lastnonspaceidex)+ (y== rawimg.GetLength(1)-2?resetall:""));
             }
         }
 
